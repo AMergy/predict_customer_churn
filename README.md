@@ -7,7 +7,7 @@ Identification of credit card customers that are most likely to churn.
 
 ## Files and data description
 Overview of the files and data present in the root directory. 
-
+```
 .
 ├── Guide.ipynb          # Getting started and troubleshooting tips
 ├── churn_notebook.ipynb # Contains the code to be refactored
@@ -21,7 +21,7 @@ Overview of the files and data present in the root directory.
 │   └── results
 ├── logs                 # Store logs
 └── models               # Store models
-
+```
 The data file bank_data.csv can be downloaded on [Kaggle](https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers).
 
 ## Running Files

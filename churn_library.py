@@ -296,6 +296,8 @@ class CustomerChurn():
             cv_rfc.best_estimator_.feature_importances_,
             xtot,
             "images/results/feature_importance-rf.png")
+        # https://stackoverflow.com/questions/34052115/how-to-find-the-importanc
+        # e-of-the-features-for-a-logistic-regression-model tells us that the
         # influence of a parameter in a logistic regression is given by
         # the magnitude of its coefficient times the standard deviation of the
         # corresponding parameter in the data
